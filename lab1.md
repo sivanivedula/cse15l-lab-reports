@@ -1,11 +1,13 @@
 # **Lab Report 1: Remote Access and FileSystem**
-## *The following report will provide instructions to log into a course-specific account.*
+*The following report will provide instructions to log into a course-specific account.*
 
 ## **STEP 1: Installing VScode**
 My computer already has Visual Studio installed, but to start, visit the [Visual Studio Code website](https://code.visualstudio.com/). Download the version of VSCode that matches the operating system your device uses. Follow the instructions given depending on your device.
+
 ![Image](vscodeSite.png)
 
 After opening the application, your screen should look like this. Keep in mind that the appearance (colors, menu bar) may differ based on your device and settings. 
+
 ![Image](vscode.png)
 
 ## **STEP 2: Remote Connection**
@@ -14,6 +16,7 @@ Now, you can establish the remote connection using terminal on Visual Studio Cod
 $ ssh cs15lwi23xx@ieng6.ucsd.edu
 '''
 At the prompt, enter the password for your account. At that point, you should see the following screen:
+
 ![Image](remoteConnection.png)
 
 ## **STEP 3: Attempting Commands**
@@ -28,4 +31,5 @@ $ cp
 $ cat
 '''
 The following screenshot shows me create a .txt file in my account's folder and performing some commands on it. 
+
 ![Image](commands.png)
