@@ -30,6 +30,6 @@ $ mkdir
 $ cp
 $ cat
 '''
-The following screenshot shows me create a .txt file in my account's folder and performing some commands on it. 
+The following screenshot shows me creating a .txt file in my account's folder and performing some commands on it. 
 
 ![Image](commands.png)
