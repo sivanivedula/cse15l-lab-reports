@@ -21,14 +21,39 @@ At the prompt, enter the password for your account. At that point, you should se
 
 ## **STEP 3: Attempting Commands**
 At this point, try a few commands! Some popular ones include:
+
 ```
-$ cd ~ 
-$ cd
-$ ls
-$ pwd
-$ mkdir
-$ cp
-$ cat
+$ mkdir // This command stands for "make directory" and allows you to create a new directory.
+```
+
+![Image](mkdir.png)
+
+```
+$ vi // This commands allows you to create a text file on the screen. To exit the text editor without saving, type :q after pressing Esc. To exit the text editor after saving, type :wq after pressing Esc.
+```
+
+![Image](vi.png)
+
+```
+$ cat // This command means "concatenate" and prints the contents of the file.
+```
+
+![Image](cat.png)
+
+```
+$ cd // This command stands for "change directory" and allows you to move between directories. I am using cd to go into the new directory I made using the mkdir command.
+```
+
+```
+$ ls // This commands mean "list" and shows all the contents of some directory. As I cd'ed into my new directory newDir where I created my text file using the vi command, ls shows that the contents of newDir consist of that text file. As you can see, after the newText.txt file was created, the ls command showed the presence of the text file in the newDir directory, compared to before its creation when the ls command yielded nothing.
+```
+![Image](cdls.png)
+
+These are some other common commands:
+
+```
+$ pwd // This command means "print working directory" and prints the path you are currently in.
+$ cp // This command means "copy" and lets you copy files or directories to other directories.
 ```
 The following screenshot shows me creating a .txt file in my account's folder and performing some commands on it. 
 
