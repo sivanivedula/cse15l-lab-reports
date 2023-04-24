@@ -16,12 +16,12 @@ Some methods that are called in my code include append, and toString(). A relave
 
 **This is the input that does not yield an error in the ArrayTests reversedInPlace program:**
 ```
-	@Test 
-	public void testReverseInPlace() {
-    int[] input1 = { 3 };
-    ArrayExamples.reverseInPlace(input1);
-    assertArrayEquals(new int[]{ 3 }, input1);
-	}
+@Test 
+public void testReverseInPlace() {
+   int[] input1 = { 3 };
+   ArrayExamples.reverseInPlace(input1);
+   assertArrayEquals(new int[]{ 3 }, input1);
+}
 ```
 **This is the input that yields an error in the ArrayTests reversedInPlace program:**
 
