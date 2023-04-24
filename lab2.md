@@ -3,10 +3,13 @@
 
 ## **STEP 1: StringServer**
 ![Image](stringServer1.png)
+
 Some methods that are called in my code include append, and toString(). A relavent argument the first time was "<string>" as I had copy pasted from the cse15L website, and that was the first query value that got appended to the message field. At that point, the field consisted of "<string>".
 
 ![Image](stringServer2.png)
-Some methods that are called in my code include append, and toString(). A relavent argument after the first time was "hello" at which I refreshed the website 3 times, so "hello" appears there three more times. Those were 3 new query values that got appended to the message field. I then tried adding a string "itssunnyoutside" and you can see me typing it into the search bar. You can then see the aftermath of me typing that query into the search bar at the top.
+	
+Some methods that are called in my code include append, and toString(). A relavent argument after the first time was "hello" at which I refreshed the website 3 times, so "hello" appears there three more times. Those were 3 new query values that got appended to the message field. I then tried adding a string "itssunnyoutside" and you can see me typing it into the search bar. You can then see the aftermath of me typing that query into the search bar at the top in the following picture.
+	
 ![Image](stringServer3.png)
 
 ## **STEP 2: Fixing Bugs**
