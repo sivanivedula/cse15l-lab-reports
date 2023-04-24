@@ -29,13 +29,13 @@ At this point, try a few commands! Some popular ones include:
 ![Image](mkdir.png)
 
 
-* vi: This commands allows you to create a text file on the screen. To exit the text editor without saving, type :q after pressing Esc. To exit the text editor after saving, type :wq after pressing Esc.
+* vi: This commands allows you to create a text file on the screen. To exit the text editor without saving, type :q after pressing Esc. To exit the text editor after saving, type :wq after pressing Esc. I created a text file called newText.txt using the vi command.
 
 
 ![Image](vi.png)
 
 
-* cat: This command means "concatenate" and prints the contents of the file.
+* cat: This command means "concatenate" and prints the contents of the file. This printed the contents of the newText.txt file I made.
 
 
 ![Image](cat.png)
@@ -51,9 +51,13 @@ At this point, try a few commands! Some popular ones include:
 
 These are some other common commands:
 
+* pwd: This command means "print working directory" and prints the path you are currently in. This has printed the path to the dir16 directory I am currently in.
 
-* pwd: This command means "print working directory" and prints the path you are currently in.
-* cp: This command means "copy" and lets you copy files or directories to other directories.
+![Image](pwd.png)
+
+* cp: This command means "copy" and lets you copy files or directories to other directories. I copied the newText.txt file into the dir16 directory I made in lab. You can see now that the newText.txt file is in dir16.
+
+![Image](cp.png)
 
 The following screenshot shows me creating a .txt file in my account's folder and performing some commands on it. 
 
