@@ -48,7 +48,7 @@ Some methods that are called in my code include append, and toString(). A relave
 
 ![Image](stringServer2.png)
 	
-Some methods that are called in my code include append, and toString(). A relavent argument after the first time was "hello" at which I refreshed the website 3 times, so "hello" appears there three more times. Those were 3 new query values that got appended to the message field. I then tried adding a string "itssunnyoutside" and you can see me typing it into the search bar. You can then see the aftermath of me typing that query into the search bar at the top in the following picture.
+Some methods that are called in my code include append, and toString(). A relavent argument after the first time was "hello" at which I refreshed the website 3 times, so "hello" appears there three more times. Those were 3 new query values that got appended to the message field. I then tried adding a string "itssunnyoutside" and you can see me typing it into the search bar. You can then see the aftermath of me typing that query into the search bar at the top in the following picture. The getPath() function in the code works to 
 	
 ![Image](stringServer3.png)
 
