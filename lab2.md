@@ -82,9 +82,10 @@ public void testReversedInPlace2() {
    assertArrayEquals(new int[]{7, 9, 4}, input);
  }
 ```
-**This is a screenshot of the JUnit tests running and the error they yield:**
+**This is a screenshot of the JUnit tests running and the error they yield, including from the VSCode UI and from terminal:**
 ![Image](test1.png)
 ![Image](test2.png)
+![Image](junit.png)
 
 
 **These are the changes between the code before and after the bug fix:**
