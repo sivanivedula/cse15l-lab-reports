@@ -2,6 +2,46 @@
 *The following report will demonstrate a StringServer and fixing bugs.*
 
 ## **STEP 1: StringServer**
+```
+import java.io.IOException;
+import java.net.URI;
+
+class Handler implements URLHandler {
+    // The one bit of state on the server: a number that will be manipulated by
+    // various requests.
+    StringBuilder message = new StringBuilder();
+
+    public String handleRequest(URI url) {
+        if (url.getPath().equals("/add-message")) {
+            String query = url.getQuery();
+            if (query != null && query.startsWith("s=")) {
+                String newString = query.substring(2);
+                message.append("\n").append(newString);
+                return message.toString();
+            }
+            else {
+                return "400 Bad Request: Invalid Query String";
+            }
+        }
+        else {
+            return "404 Not Found!";
+        } 
+    }
+}
+
+class StringServer {
+    public static void main(String[] args) throws IOException {
+        if(args.length == 0){
+            System.out.println("Missing port number! Try any number between 1024 to 49151");
+            return;
+        }
+
+        int port = Integer.parseInt(args[0]);
+
+        Server.start(port, new Handler());
+    }
+}
+```
 ![Image](stringServer1.png)
 
 Some methods that are called in my code include append, and toString(). A relavent argument the first time was "<string>" as I had copy pasted from the cse15L website, and that was the first query value that got appended to the message field. At that point, the field consisted of "<string>".
