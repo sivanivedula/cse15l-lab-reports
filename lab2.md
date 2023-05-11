@@ -47,7 +47,7 @@ class StringServer {
 * This screenshot demonstrates the collective work of the getString(), getQuery(), and toString() method, to isolate the query string to display on the server.
 * A relavent argument for using the getPath() method is the path from the URI url object that is the path component of the URL we specify. The getPath() method returns the path component as a String. It is used specifically in this code to check if the path equals "/add-message" at which the rest of the code can proceed, and if not, a "404 Not Found" message will show.
 * The getQuery() method retrieves the actual query from the URI object, and the relavent argument for this method is the path from the URI url object. The string it returns is passed to a String query, and the query can be isolated.
-* Another set of relavent methods are append and toString(). This screenshot shows an example of the append method which adds a string to the message StringBuilder object.
+* Another set of relavent methods are append and toString(). This screenshot shows an example of the append method which adds a string to the message StringBuilder variable.
 * A relavent argument for using this method is a string that is set to a String newString object and added to the StringBuilder of words.
 * Everytime a new string is added, it will be added to the message object.
 * A relavent argument the first time was "string" as I had copy pasted from the cse15L website, and that was the first query value that got appended to the message field. At that point, the field consisted of "string".
