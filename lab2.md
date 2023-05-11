@@ -50,7 +50,7 @@ class StringServer {
 * Another set of relavent methods are append and toString(). This screenshot shows an example of the append method which adds a string to the message StringBuilder object.
 * A relavent argument for using this method is a string that is set to a String newString object and added to the StringBuilder of words.
 * Everytime a new string is added, it will be added to the message object.
-* A relavent argument the first time was "<string>" as I had copy pasted from the cse15L website, and that was the first query value that got appended to the message field. At that point, the field consisted of "<string>".
+* A relavent argument the first time was "string" as I had copy pasted from the cse15L website, and that was the first query value that got appended to the message field. At that point, the field consisted of "<string>".
 
 ![Image](stringServer2.png)
 	
