@@ -13,12 +13,12 @@ Step 5: Clone your fork of the repository from your Github account
 
 Step 6: Run the tests, demonstrating that they fail
 ------
-* I used the command ```cd lab7 <enter>``` to enter the lab7 directory. I then did ```bash t<tab>``` which automatically filled out to ```bash test.sh```. The second command allowed me to run the tests, which as expected, all failed.
+* I used the command ```cd lab7 <enter>``` to enter the lab7 directory. I then did ```bash t<tab><enter>``` which automatically filled out to ```bash test.sh```. The second command allowed me to run the tests, which as expected, all failed.
 ![Image](failedTests.png)
 
 Step 7: Edit the code file to fix the failing test
 ------
-* I used the command ```vim L<tab>.java``` which became ```vim ListExamples.java```. This opens the ListExamples.java file in a vim window in terminal to make it editable in terminal itself.
+* I used the command ```vim L<tab>.java<enter>``` which became ```vim ListExamples.java```. This opens the ListExamples.java file in a vim window in terminal to make it editable in terminal itself.
 ![Image](vim.png)
 * I used ```g43<enter>``` to go to the 43rd line which included the code that had to be changed.
 * I then used ```e<enter>``` to go to the end of the word, which landed the cursor on the "1" of the word index1.
