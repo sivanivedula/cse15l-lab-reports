@@ -20,7 +20,7 @@ courts are now developing the goals and strategies that resulted
 * My source for this command is chatGPT, and the input and output are pasted below. From the output from ChatGPT, I used the first example point.
 
 input:
-> fun ways to use grep command
+> what are some common ways to use grep
 
 output:
 > Certainly! Here are some common and practical ways to use the grep command: 
@@ -89,7 +89,7 @@ output:
 * My source for this command is chatGPT, and the input and output are pasted below. From the output from ChatGPT, I used the fourth example point.
 
 input:
-> fun ways to use grep command
+> what are some common ways to use grep
 
 output:
 > Certainly! Here are some common and practical ways to use the grep command: 
@@ -125,7 +125,7 @@ Inverting the match: Use the -v option to invert the match and display lines tha
 * My source for this command is chatGPT, and the input and output are pasted below. From the output from ChatGPT, I used the fifth example point.
 
 input:
-> fun ways to use grep command
+> what are some common ways to use grep
 
 output:
 > Certainly! Here are some common and practical ways to use the grep command: 
