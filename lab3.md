@@ -17,7 +17,7 @@ client issues have resulted in the expansion of services to
 courts are now developing the goals and strategies that resulted
 ```
 * In this example, I used grep to find the word "resulted" in the Progress_report.txt file, and it returned the 3 different lines "streamlined. Some modifications resulted in more comprehensive", "client issues have resulted in the expansion of services to", "courts are now developing the goals and strategies that resulted"
-* My source for this command is chatGPT, and the input and output are pasted below. From the output from ChatGPT, I used the first example point.
+* My source for this command is chatGPT, and the input and output are pasted below. From the output from ChatGPT, I used the first example point as an idea for a grep command.
 
 input:
 > what are some common ways to use grep
@@ -50,7 +50,7 @@ Inverting the match: Use the -v option to invert the match and display lines tha
 ```
 
 * In this example, we are in the same Progress_report.txt file as before, and we would expect the count returned to be "3", since there were 3 lines printed from the original grep command. The number returned matches the expectation.
-* My source for this command is chatGPT, and the input and output are pasted below. From the output from ChatGPT, I used the seventh example point.
+* My source for this command is chatGPT, and the input and output are pasted below. From the output from ChatGPT, I used the seventh example point as an idea for a grep command.
 
 input:
 > fun ways to use grep command
@@ -86,7 +86,7 @@ output:
 /home/linux/ieng6/cs15lsp23/cs15lsp23dk/stringsearch/stringsearch-data/technical/plos/pmed.0020161.txt:          (Hs.408182 [http://www.ncbi.nlm.nih.gov/UniGene/clust.cgi?ORG=Hs&CID=408182; forkhead
 ```
 * In this example, I used grep -r to find the word "forkead" in the complete technical directory, and it returned a few lines as shown above in which the word "forkhead" is included.
-* My source for this command is chatGPT, and the input and output are pasted below. From the output from ChatGPT, I used the fourth example point.
+* My source for this command is chatGPT, and the input and output are pasted below. From the output from ChatGPT, I used the fourth example point as an idea for a grep command.
 
 input:
 > what are some common ways to use grep
@@ -122,7 +122,7 @@ Inverting the match: Use the -v option to invert the match and display lines tha
 1093:courts are now developing the goals and strategies that resulted
 ```
 * In this example, I used grep to find the word "resulted" in the Progress_report.txt file, and it returned 3 lines in which the word "process" is included. It also shows that these lines are line 809, 961, and 1093 in the text file.
-* My source for this command is chatGPT, and the input and output are pasted below. From the output from ChatGPT, I used the fifth example point.
+* My source for this command is chatGPT, and the input and output are pasted below. From the output from ChatGPT, I used the fifth example point as an idea for a grep command.
 
 input:
 > what are some common ways to use grep
