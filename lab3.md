@@ -1,5 +1,5 @@
 # **Lab Report 3: Researching Commands**
-*The following report will provide instructions to log into a course-specific account.*
+*The following report will provide examples for using the grep command.*
 
 ## grep "word" file.txt
 
