@@ -61,7 +61,7 @@ You received a 2/3 (67%)
 
 __Detail the failure-inducing input and context. That might mean any or all of the command you're running, a test case, command-line arguments, working directory, even the last few commands you ran. Do your best to provide as much context as you can.__
 
-The command line argument is: bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-compile-error ListExamples.java
+The command line argument is: bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-compile-error ListExamples.java. I am guessing the error is somewhere around the test running and compilation portion of the script since it runs correctly, but it is just running more than it has to.
 
 The difference is that the GitHub link with all correct codes and tests pass but this link that has a compilation error does not run properly. I am working in list-examples-grader in Visual Studio Code, and in the grade.sh file which is most likely where the error is.
 
@@ -72,7 +72,8 @@ Looking at your error, it seems there is most likely an issue with the exit code
 Student Trying:
 ------
 
-The bug is caused from the code not having proper exit codes, which is causing the code to run past a certain point despite it failing the requirements. After an "exit 1" in the code following the compilation code where the tests are running and being tested even though they shouldn't be, the output was correct.
+The bug is caused from the code not having proper exit codes and the scipt continues to execute, which is causing the code to run past a certain point despite it failing the requirements. After an "exit 1" in the code following the compilation code where the tests are running and being tested even though they shouldn't be, the output was correct.
+
 Correct Terminal Output:
 ```
 Sivanis-MacBook-Pro:list-examples-grader sivanivedula$ bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-compile-error ListExamples.java
@@ -91,8 +92,10 @@ ListExamples.java:15: error: ';' expected
 You are experiencing a compilation error
 You received a 1/3 (33%)
 ```
+
 Setup Information:
 ----
+
 File/Directory Structure:
 ![Image](listexamplesgrader.png)
 
@@ -245,4 +248,5 @@ bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-compile-error List
 Description of what to edit to fix the bug:
 Add "exit" after "echo "You received a 3/3 (100%)"" in grade.sh code to exit the code before the point so the tests aren't run since the file didn't even compile correctly.
 
-
+# Part B: Reflection
+Before the second half of this quarter, I did not how to run a server or how to really write a bash script, so it's really cool that I know how to now because I can recognize how useful it is to run repeated commands on several files.
