@@ -250,4 +250,4 @@ Description of what to edit to fix the bug:
 Add "exit" after "echo "You received a 3/3 (100%)"" in grade.sh code to exit the code before the point so the tests aren't run since the file didn't even compile correctly.
 
 # Part B: Reflection
-Before the second half of this quarter, I did not how to run a server or how to really write a bash script, so it's really cool that I know how to now because I can recognize how useful it is to run repeated commands on several files.
+Before the second half of this quarter, I did not how to run a server or how to really write a bash script. It's really cool that I know how to now because I can recognize how useful it is to run the same commands on several files. You can do it with a single script and make it general for different files.
