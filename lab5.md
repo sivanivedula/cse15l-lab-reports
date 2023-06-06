@@ -67,7 +67,7 @@ The difference is that the GitHub link with all correct codes and tests pass but
 
 TA Response on EdStem:
 ------
-Looking at your error, it seems there is most likely an issue with the exit code, since code past the compilation is running. Check that you have the right amounts of "exit 1" code in the correct places.
+Looking at your error, it seems there is most likely an issue with the exit code, since code past the compilation is running. Check that you have the right amounts of "exit" code in the correct places.
 
 Student Trying:
 ------
