@@ -97,6 +97,7 @@ Setup Information:
 ----
 
 File/Directory Structure:
+
 ![Image](listexamplesgrader.png)
 
 Contents of grade.sh (pre-fix):
